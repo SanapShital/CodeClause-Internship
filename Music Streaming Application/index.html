@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatBlast - Your favourite music is here</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.png" alt="Spotify">Beat_Blast Music</li>
+            <div class="search-icon"><i class="fas fa-search" aria-hidden="true" style="margin-right:10px;"></i></div>
+            <form class="form-inline">
+                <div class="input_search"><input class="form-control form-control-sm ml-3 w-75" type="text"
+                        placeholder="Search songs,playlists and artists" aria-label="Search"></div>
+            </form>
+
+
+
+            <div class="folder">
+
+                <div class="star_icon a">
+                    <button><i class="fa-solid fa-heart"></i>
+                        <span>Favourites</span></button>
+                </div>
+
+                <div class="Playlists a">
+                    <button><i class="fa-solid fa-music"></i>
+                        <span>Playlists</span></button>
+                </div>
+
+                <div class="Recent a">
+                    <button><i class="fa-solid fa-clock"></i>
+                        <span>Recent</span></button>
+
+                </div>
+
+
+            </div>
+
+        </ul>
+    </nav>
+
+    <div class="container row" style="padding-bottom: 3rem; margin-left: 6.3rem;">
+        <div>
+            <h1>Best of NCS - No Copyright Sounds</h1>
+        </div>
+        <div class="name">
+            <ul>
+                <a href="">Songs</a>
+                <a href="">Artists</a>
+                <a href="">Album</a>
+                <a href="">Folders</a>
+            </ul>
+        </div>
+
+        <div class="row">
+
+            <div class="songList col-5 " style="margin-right: 3.75rem; margin-left: 2.8rem;">
+
+                <div class="songItemContainer ">
+                    <div class="songItem">
+                        <img alt="1" id="Happy">
+                        <span class="songName">Happy_Birthday</span>
+                        <span class="songlistplay"><span class="timestamp">05:00 <i id="0"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">Friendship_Circle</span>
+                        <span class="songlistplay"><span class="timestamp">04:45 <i id="1"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">Zindagi_Zindagi</span>
+                        <span class="songlistplay"><span class="timestamp">03:34 <i id="2"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">Jai_Laxmi_Mata</span>
+                        <span class="songlistplay"><span class="timestamp">02:19 <i id="3"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" id="Bandeya">
+                        <span class="songName">Ye_Mat_Kaho_Khuda_Se</span>
+                        <span class="songlistplay"><span class="timestamp">04:21 <i id="4"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" id="Bandeya">
+                        <span class="songName">Bandeya_Ree_Bandeya</span>
+                        <span class="songlistplay"><span class="timestamp">04:35 <i id="5"
+                                    class="far songItemPlay fa-play-circle"></i> </span></span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="image  col-1 " style=" margin-top: 4.7rem;">
+                <img src="Pic.jpg" alt="" id="bg" style="height: 350px; width: 350px; border-radius: 0.5rem;">
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="30">
+        <div class="icons">
+
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Music-The Best</span>
+        </div>
+    </div>
+    <script src="App.js"></script>
+    <script src="https://kit.fontawesome.com/f6669a7ecf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

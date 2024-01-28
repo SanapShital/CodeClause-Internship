@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 14px;
+    font-size: 20px;
+}
+
+.brand img {
+    border-radius: 34px;
+    width: 70px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 40vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 34px;
+}
+
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.icons i {
+
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+#myProgressBar {
+    width: 40vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 30px;
+    display: flexbox;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songName {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 19vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#Bandeya {
+    width: 60px;
+}
+
+.star_icon span {
+    font-size: 20px;
+}
+
+.Playlists span {
+    font-size: 20px;
+
+}
+
+.Recent span {
+    font-size: 20px;
+}
+
+.Playlists button {
+    background-color: gray;
+    color: white;
+    border: solid 3px black;
+    border-radius: 3rem;
+    padding: 0px 10px;
+    margin-top: 0.8rem;
+}
+
+.star_icon button {
+    border-radius: 3rem;
+    background-color: gray;
+    color: white;
+    padding: 0px 10px;
+    border: solid 3px black;
+    margin-top: 0.8rem;
+}
+
+.Recent button {
+    background-color: gray;
+    margin-top: 0.8rem;
+    border-radius: 3rem;
+    color: white;
+    padding: 0px 10px;
+    border: solid 3px black;
+
+}
+
+.folder {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+
+.folder .a :hover {
+    opacity: 0.6;
+}
+.name ul a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.search-icon {
+    margin-left: 200px;
+}
+
+.input_search {
+    width: 300px;
+    border-radius: 34px;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+        background-color: red;
+    }
+}
