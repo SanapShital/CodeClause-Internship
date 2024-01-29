@@ -1,0 +1,72 @@
+#student{
+    width: 160px;
+    font-size: 19px;
+}
+
+#iAcademic{
+    width: 100px;
+    border: solid black 1.5px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: center;
+
+}
+
+#date{
+   font-style:normal;
+   font-weight:400;
+   padding-left: 18px;
+}
+#iTutor{
+    font-size: 19px;
+    padding: 5px;
+    border: solid black 1.5x;
+    width: 35px;
+    margin-left: 20px;
+}
+#iDate{
+    font-size: 19px;
+   
+    border: solid black 1.5px;
+    width: 100px;
+    margin-left: 20px;
+}
+.BTN{
+    border: solid black 2px;
+padding: 10px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+#iPhone{
+    font-size: 19px;
+   border: solid black 1.5px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+#iAdhar{
+    font-size: 19px;
+    border: solid black 1.5px;
+     width: 130px;
+     margin-left: 20px;
+}
+#iName{
+    font-size: 19px;
+    width: 160px;
+    border: solid black 1.5px;
+}
+#link{
+    width: 200px;
+    font-size: 16px;
+    padding: 5px;
+}
+.student{
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
