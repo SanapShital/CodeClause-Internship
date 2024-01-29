@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student2</title>
+    <link rel="stylesheet" href="stylesss.css">
+
+</head>
+<center>
+    <h1>Student Personal Details</h1>
+    <form method="post" action="/user" novalidate class="needs-validation">
+        <h2>
+            <p>
+            <table border="1">
+                <tr>
+                    <td rowspan=12> <img src="shital.jfif" id="shital"></td>
+                    <td>
+                        <table border="1">
+    
+    
+    
+                            <h4 id="date">
+                                Student Name: <input type="text" name="Student[name]" id="student" required>
+                                Academic_Year: <select name="Student[academic]" id="iAcademic" required>
+                                    <option value="2020-2021">2020-2021</option>
+                                    <option value="2021-2022">2021-2022</option>
+                                    <option value="2022-2023">2022-2023</option>
+                                    <option value="2023-2024">2023-2024</option>
+                                </select>
+                            </h4>
+    
+    
+    
+    
+                            <tr>
+                                <td id="date" >Reg No:</td>
+                                <td><input type="text" id="iDate" name="Student[regNo]" required></td>
+                                <td id="date" >PRN No.:</td>
+                                <td><input type="text" placeholder="12345623F" maxlength="9" id="iDate" name="Student[prn]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Surname:</td>
+                                <td><input type="text" id="iDate" name="Student[Surname]" required></td>
+                                <td id="date">Roll No.:</td>
+                                <td><input type="text" id="iDate" name="Student[RollNo]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">First Name:</td>
+                                <td><input type="text" id="iDate" name="Student[FirstName]" required></td>
+                                <td id="date">Phone No.:</td>
+                                <td><input type="text" maxlength="10" id="iPhone" name="Student[Phone]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Middle Name:</td>
+                                <td><input type="text" id="iDate" name="Student[MiddleName]" required></td>
+                                <td id="date">Adhar No.:</td>
+                                <td><input type="text" maxlength="12" id="iAdhar" name="Student[Adhar]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Preferred Name:</td>
+                                <td><input type="text" id="iName" name="Student[PreferredName]" required></td>
+                                <td id="date">Linkdin Profile Link:</td>
+                                <td><input type="text" id="link" name="Student[Linkdin]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">
+                                    Title:
+                                </td>
+                                <td> <select name="Student[Prof]" id="iAcademic" required>
+                                        <option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                        <option value="dr">Dr</option>
+                                        <option value="Prof">Prof</option>
+                                        <option value="cap">Capt</option>
+                                        <option value="Miss">Miss</option>
+                                    </select></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Gender:</td>
+                                <td> <select name="Student[Gender]" id="iAcademic" required>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select></td>
+    
+                                <td id="date">Github Account Link:</td>
+                                <td><input type="url" id="link" name="Student[Github]" required></td>
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Natinality:</td>
+                                <td> <select name="Student[nationality]" id="iAcademic" required>
+                                        <option value="Indian">Indian</option>
+                                        <option value="American">American</option>
+                                        <option value="Canadian">Canadian</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select></td>
+                                <td id="date">Tutor Gr:</td>
+                                <td> <select name="Student[Tutor]" id="iAcademic" required>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                        <option value="E">E</option>
+                                    </select></td>
+    
+                            </tr>
+    
+                            <tr>
+                                <td id="date">Date of Birth</td>
+                                <td><input type="datetime" id="iDate" name="Student[DOB]" required></td>
+                                <td id="date">Age:</td>
+                                <td><input type="text" id="iTutor" name="Student[Age]" required></td>
+                            </tr>
+    
+                        </table>
+    
+            </table>
+    
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Well Done!!!</h4>
+                <p>You Have Successfully read your details</p>
+            </div>
+    
+            <button class="BTN">Save</button>
+            <button type="button" class="BTN">Delete</button>
+            <button type="button" class="BTN" id="editButton">Edit</button>
+
+    </form>
+    
+</center>
+<script src="script1.js"></script>
+
+<body>
+</body>
+
+</html>
